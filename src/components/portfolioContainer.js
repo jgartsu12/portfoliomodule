@@ -22,7 +22,7 @@ export default class PortfolioContainer extends Component {
         return (
             <div className='home-page-wrapper'>
                 <div className='portfolio-items-wrapper'>
-                    {PortfolioItem}
+                    <PortfolioItem/>
                 </div>
             </div>
         )
